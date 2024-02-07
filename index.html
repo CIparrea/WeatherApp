@@ -6,30 +6,33 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
     <script src="js.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Press+Start+2P&family=Roboto+Mono:wght@100&family=Sixtyfour&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class = "card">
-        <form>
+        <form class = "search-bar">
             <input type="text" name="input" placeholder="Type here...">
-            <button type="submit">Search</button>
+            <button type="submit"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/VisualEditor_-_Icon_-_Search-big_-_white.svg/1200px-VisualEditor_-_Icon_-_Search-big_-_white.svg.png"></button>  
         </form>
-        <div class = "title">
-            <h1 class = "name">Name</h1>
-            <p class = "description">Description</p>
+        <div class = "title">    
+            <h1 class = "name">City</h1>
         </div>
-        <div class="container">
-            <div class = "climate">
-                <div class = "farenheit">
-                    <div class = "tempF">TempF</div>
-                    <div class = "f">°F</div>
+            <div class="container">
+                <div class = "climate">
+                    <div class = "farenheit">
+                        <div class = "tempF">TempF</div>
+                        <div class = "f">°F</div>
+                    </div>
+                    <p class = "tempC">TempC</p>
                 </div>
-                <p class = "tempC">TempC</p>
+                <div class = "conditions">
+                    <p class = "description">Description</p>
+                    <p class = "humidity">Humidity</p>
+                    <p class = "wind">Wind</p>
+                </div>
             </div>
-            <div class = "conditions">
-                <p class = "humidity">Humidity</p>
-                <p class = "wind">Wind</p>
-            </div>
-        </div>
     </div>
     <div class = "bottom">
         <p>"Cesar Iparrea"</p>

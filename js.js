@@ -1,12 +1,16 @@
 const apiKey = "d28537c1ffdbeb9ecb880a9d21ccb446";
 const form = document.querySelector("form");
+const initCity = document.querySelector("input")
+
 
 form.addEventListener("submit", handleSubmit);
+
 
 function handleSubmit(e){
     e.preventDefault();
     const city = document.querySelector("input").value;
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
+
 
 fetch(url)
   .then((res) => res.json())
@@ -43,13 +47,8 @@ fetch(url)
     tempF.textContent = `${tempFRounded}`;
     humidity.textContent = `Humidity: ${res.main.humidity} %`;
     wind.textContent = `Wind: ${res.wind.speed} km/h`;
-
-    // console.log(`Temperature: ${res.main.temp} *C`);
-    // console.log(((Number(res.main.temp))*(5/9))+32);
-    // console.log(`Humidity: ${res.main.humidity} %`);
-    // console.log(`wind: ${res.wind.speed} km/h`);
-    // console.log(`img: ${res.weather[0].icon}`);
-    // console.log(res)
   });
 
 }
+
+
