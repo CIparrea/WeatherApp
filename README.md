@@ -1,4 +1,4 @@
-IMAGE 
+![alt text]()
 # Weather App 
 
 Welcome to the Weather App! This application allows you to check the current weather in any city around the world.
@@ -23,11 +23,11 @@ Enjoy checking the weather with this app! If you have any feedback, issues, or s
 The app is designed to work seamlessly on various devices, including desktops, tablets, and smartphones.
 
 ### Wireframes
->DESKTOP
+>![alt text]()
 
->IPAD
+>![alt text]()
 
->IPHONE
+>![alt text]()
 
 ## Back End
 **Technologies Used** 
@@ -40,6 +40,6 @@ The app is designed to work seamlessly on various devices, including desktops, t
 
 
 ### Credits 
-This Weather App is an open-source project created by **Cesar Iparrea**. You can view the source code on [GitHub](XXXXXXXX).
+This Weather App is an open-source project created by **Cesar Iparrea**. You can view the source code on [GitHub](https://github.com/CIparrea/WeatherApp/blob/main/index.html).
 
 Attribution Weather data is provided by [OpenWeatherMap](https://openweathermap.org/).
