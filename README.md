@@ -22,6 +22,7 @@ Enjoy checking the weather with this app! If you have any feedback, issues, or s
 ## Responsive Design
 The app is designed to work seamlessly on various devices, including desktops, tablets, and smartphones.
 
+### Wireframes
 >DESKTOP
 
 >IPAD
