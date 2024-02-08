@@ -1,7 +1,7 @@
 ![alt text](https://github.com/CIparrea/WeatherApp/blob/main/header.png)
 # Weather App 
 
-Welcome to the Weather App! This application allows you to check the current weather in any city around the world.
+Welcome to the [Weather App!](file:///Users/cesariparrea/seb/projects/WeatherApp/index.html) This application allows you to check the current weather in any city around the world.
 
 Features Search Functionality: Enter the name of the city you want to check the weather for and click the "Search" button or hit enter. 
 
@@ -39,7 +39,7 @@ The app is designed to work seamlessly on various devices, including desktops, t
 - *JavaScript:* Implements the weather API integration, data fetching, and dynamic content updating. 
 
 
-### Credits 
+## Credits 
 This Weather App is an open-source project created by **Cesar Iparrea**. You can view the source code on [GitHub](https://github.com/CIparrea/WeatherApp/blob/main/index.html).
 
 Attribution Weather data is provided by [OpenWeatherMap](https://openweathermap.org/).
