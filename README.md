@@ -1,7 +1,7 @@
 ![alt text](https://github.com/CIparrea/WeatherApp/blob/main/header.png)
 # Weather App 
 
-Welcome to the [Weather App](file:///Users/cesariparrea/seb/projects/WeatherApp/index.html)! This application allows you to check the current weather in any city around the world.
+Welcome to the [Weather App](https://ciparrea.github.io/WeatherApp)! This application allows you to check the current weather in any city around the world.
 
 Features Search Functionality: Enter the name of the city you want to check the weather for and click the "Search" button or hit enter. 
 
