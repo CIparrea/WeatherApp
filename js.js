@@ -61,7 +61,7 @@ function handleSubmitForCity(city) {
       });
       let cityNew = capSplitCity.join(" ");
 
-      let condition = res.weather[0].description;
+      let condition = res.weather[0].main;
       let splitCondition = condition.split(" ");
       let capSplitCondition = splitCondition.map((word) => {
         return word[0].toUpperCase() + word.slice(1);
