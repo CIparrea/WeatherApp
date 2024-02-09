@@ -71,7 +71,7 @@ function handleSubmitForCity(city) {
       name.textContent = cityNew;
       description.textContent = conditionNew;
       tempC.textContent = `${tempCRounded} °C`;
-      tempF.textContent = `${tempFRounded}`;
+      tempF.textContent = `${tempFRounded} `;
       humidity.textContent = `Humidity: ${res.main.humidity} %`;
       wind.textContent = `Wind: ${res.wind.speed} km/h`;
 
