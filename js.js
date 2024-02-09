@@ -52,7 +52,7 @@ function handleSubmitForCity(city) {
       const humidity = document.querySelector(".humidity");
       const wind = document.querySelector(".wind");
 
-      let tempFRounded = Math.round((Number(res.main.temp) * (9 / 5)) + 32);
+      let tempFRounded = Math.round((Number(res.main.temp) * (9/5)) + 32);
       let tempCRounded = Math.round(res.main.temp);
 
       let splitCity = city.split(" ");
