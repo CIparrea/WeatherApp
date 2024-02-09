@@ -149,7 +149,7 @@ body{
 @media (max-width: 600px){
     .frame{
         width: 350px;
-        height: 670px;
+        height: 680px;
     }
     .card{
         width: 100vw;
