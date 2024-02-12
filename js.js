@@ -9,7 +9,7 @@ let initialSubmit = false;
 
 document.addEventListener("DOMContentLoaded", function () {
   const cityInput = document.querySelector("input");
-  cityInput.value = "New York"; // Set the value to "New York"
+  cityInput.value = "Tabasco"; // Set the value to "New York"
   handleSubmit(); // Call the handleSubmit function after setting the value
   cityInput.value = "";
 });
